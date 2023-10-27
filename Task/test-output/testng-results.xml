@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Launching Browser]]>
+    </line>
+    <line>
+      <![CDATA[Launching Browser]]>
+    </line>
+    <line>
+      <![CDATA[Launching Browser]]>
+    </line>
+    <line>
+      <![CDATA[Launching Browser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-10-27T15:44:28 IST" name="Suite" finished-at="2023-10-27T15:45:39 IST" duration-ms="70849">
+    <groups>
+    </groups>
+    <test started-at="2023-10-27T15:44:28 IST" name="Test" finished-at="2023-10-27T15:45:39 IST" duration-ms="70849">
+      <class name="testClass.NewTabAndWindowsHandlesTestClass">
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:testClass.NewTabAndWindowsHandlesTestClass@659499f1]" started-at="2023-10-27T15:45:17 IST" name="LaunchBrowser" finished-at="2023-10-27T15:45:25 IST" duration-ms="7602" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Launching Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="OpeningNewTabAndValidatiingText()[pri:0, instance:testClass.NewTabAndWindowsHandlesTestClass@659499f1]" started-at="2023-10-27T15:45:25 IST" name="OpeningNewTabAndValidatiingText" finished-at="2023-10-27T15:45:39 IST" duration-ms="13918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpeningNewTabAndValidatiingText -->
+        <test-method is-config="true" signature="CloseBrower()[pri:0, instance:testClass.NewTabAndWindowsHandlesTestClass@659499f1]" started-at="2023-10-27T15:45:39 IST" name="CloseBrower" finished-at="2023-10-27T15:45:39 IST" duration-ms="414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrower -->
+      </class> <!-- testClass.NewTabAndWindowsHandlesTestClass -->
+      <class name="testClass.LoginTestClass">
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:testClass.LoginTestClass@27462a88]" started-at="2023-10-27T15:44:49 IST" name="LaunchBrowser" finished-at="2023-10-27T15:44:55 IST" duration-ms="6500" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Launching Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method is-config="true" signature="LoginIntoApp()[pri:0, instance:testClass.LoginTestClass@27462a88]" started-at="2023-10-27T15:44:55 IST" name="LoginIntoApp" finished-at="2023-10-27T15:44:59 IST" duration-ms="4054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginIntoApp -->
+        <test-method signature="CheckLoginFunctionality()[pri:0, instance:testClass.LoginTestClass@27462a88]" started-at="2023-10-27T15:44:59 IST" name="CheckLoginFunctionality" finished-at="2023-10-27T15:45:00 IST" duration-ms="1256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckLoginFunctionality -->
+        <test-method is-config="true" signature="CloseBrower()[pri:0, instance:testClass.LoginTestClass@27462a88]" started-at="2023-10-27T15:45:00 IST" name="CloseBrower" finished-at="2023-10-27T15:45:01 IST" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrower -->
+      </class> <!-- testClass.LoginTestClass -->
+      <class name="testClass.TestClassForCreatingAccount">
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:testClass.TestClassForCreatingAccount@23c30a20]" started-at="2023-10-27T15:44:28 IST" name="LaunchBrowser" finished-at="2023-10-27T15:44:38 IST" duration-ms="9429" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Launching Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method is-config="true" signature="ClickingOnMyAccount()[pri:0, instance:testClass.TestClassForCreatingAccount@23c30a20]" started-at="2023-10-27T15:44:38 IST" name="ClickingOnMyAccount" finished-at="2023-10-27T15:44:42 IST" duration-ms="4093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickingOnMyAccount -->
+        <test-method signature="CreatingAccount()[pri:0, instance:testClass.TestClassForCreatingAccount@23c30a20]" started-at="2023-10-27T15:44:42 IST" name="CreatingAccount" finished-at="2023-10-27T15:44:47 IST" duration-ms="5240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreatingAccount -->
+        <test-method is-config="true" signature="LogoutfromApp()[pri:0, instance:testClass.TestClassForCreatingAccount@23c30a20]" started-at="2023-10-27T15:44:47 IST" name="LogoutfromApp" finished-at="2023-10-27T15:44:48 IST" duration-ms="1160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutfromApp -->
+        <test-method is-config="true" signature="CloseBrower()[pri:0, instance:testClass.TestClassForCreatingAccount@23c30a20]" started-at="2023-10-27T15:44:48 IST" name="CloseBrower" finished-at="2023-10-27T15:44:49 IST" duration-ms="239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrower -->
+      </class> <!-- testClass.TestClassForCreatingAccount -->
+      <class name="testClass.SearchAddEditDeleteTestClass">
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:testClass.SearchAddEditDeleteTestClass@82de64a]" started-at="2023-10-27T15:45:01 IST" name="LaunchBrowser" finished-at="2023-10-27T15:45:06 IST" duration-ms="5899" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Launching Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="CheckSearchFunctionality()[pri:0, instance:testClass.SearchAddEditDeleteTestClass@82de64a]" started-at="2023-10-27T15:45:06 IST" name="CheckSearchFunctionality" finished-at="2023-10-27T15:45:07 IST" duration-ms="997" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckSearchFunctionality -->
+        <test-method signature="CheckAddToCartFunctionality()[pri:1, instance:testClass.SearchAddEditDeleteTestClass@82de64a]" started-at="2023-10-27T15:45:07 IST" name="CheckAddToCartFunctionality" finished-at="2023-10-27T15:45:10 IST" duration-ms="2152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckAddToCartFunctionality -->
+        <test-method signature="CheckEditFunctionality()[pri:2, instance:testClass.SearchAddEditDeleteTestClass@82de64a]" started-at="2023-10-27T15:45:10 IST" name="CheckEditFunctionality" finished-at="2023-10-27T15:45:15 IST" duration-ms="5196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckEditFunctionality -->
+        <test-method signature="DeleteFunctionality()[pri:3, instance:testClass.SearchAddEditDeleteTestClass@82de64a]" started-at="2023-10-27T15:45:15 IST" name="DeleteFunctionality" finished-at="2023-10-27T15:45:17 IST" duration-ms="2221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteFunctionality -->
+        <test-method is-config="true" signature="CloseBrower()[pri:0, instance:testClass.SearchAddEditDeleteTestClass@82de64a]" started-at="2023-10-27T15:45:17 IST" name="CloseBrower" finished-at="2023-10-27T15:45:17 IST" duration-ms="164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrower -->
+      </class> <!-- testClass.SearchAddEditDeleteTestClass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
